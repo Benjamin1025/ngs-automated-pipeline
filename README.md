@@ -1,4 +1,4 @@
-# 🧬 Interactive NGS Automation Pipeline: A Beginner's Guide
+#  Interactive NGS Automation Pipeline: A Beginner's Guide
 
 Welcome! If you have raw DNA sequencing data (FASTQ files) and want to process it but have little to no bioinformatics experience, you are in the right place. 
 
@@ -6,7 +6,7 @@ This repository contains a suite of **interactive, highly secure Bash scripts**.
 
 ---
 
-## 🗺️ What Does This Pipeline Do?
+##  What Does This Pipeline Do?
 
 This toolkit helps you perform the two most common tasks in genomics:
 1. **Genome Assembly & Annotation:** Taking raw fragments of DNA, stitching them together into a full genome (Assembly), and finding out where the genes are (Annotation).
@@ -23,7 +23,7 @@ Here is what each script does:
 
 ---
 
-## ⚙️ Step 1: Install the Bioinformatics Software
+##  Step 1: Install the Bioinformatics Software
 
 Our scripts are "wrappers"—they automate the hard parts, but you still need the actual bioinformatics software installed on your computer. 
 
@@ -71,7 +71,7 @@ conda create -n quast_env python=3.10 quast setuptools -y
 
 ---
 
-## 📥 Step 2: Download This Toolkit
+##  Step 2: Download This Toolkit
 
 Now that your computer has the scientific software, let's download the automation scripts from this repository.
 
@@ -92,7 +92,7 @@ Now that your computer has the scientific software, let's download the automatio
 
 ---
 
-## 🚀 Step 3: How to Run the Scripts (Step-by-Step)
+##  Step 3: How to Run the Scripts (Step-by-Step)
 
 To run a script, you must first **activate the correct environment**, and then **run the script file**. 
 
@@ -163,7 +163,7 @@ conda activate ngs_env
 
 ---
 
-## 🛡️ Built-in Safety & Troubleshooting
+##  Built-in Safety & Troubleshooting
 
 * **You Can't Break It:** These scripts use strict security rules (`set -u` and `set -o pipefail`). If something is missing or goes wrong, the script will instantly stop itself before accidentally deleting or corrupting your data.
 * **Auto-Cleanup:** Temporary junk files are automatically deleted, saving your hard drive space.
